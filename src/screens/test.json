@@ -1,0 +1,3357 @@
+{
+    "offerId": "S58218",
+    "masterOfferId": 32830,
+    "incrementId": 277110047,
+    "name": "|Everton - West Ham|Everton - West Ham United||Everton - West Ham",
+    "header": "||||",
+    "footer": "|Pentru toate pariurile se aplica prevederile din regulamentul de joc. Pentru toate pariurile NU se vor lua in considerare eventualele reprize de prelungiri 2x15min si nici eventualele lovituri de departajare, daca nu exista alte specificatii.|Produžeci i dodatni jedanaesterci ne uzimaju se u obzir, osim ako u okladi nije drugačije navedeno.||Dla wszystkich zakładów dogrywka oraz dodatkowe rzuty karne nie będą brane pod uwagę chyba, że treść zakładu stanowi inaczej.",
+    "sportId": 5,
+    "categoryId": 45,
+    "tournamentId": 106,
+    "matchId": 3412421,
+    "offerDate": "2021-10-17 13:00:00",
+    "dateTime": "2021-10-16 05:35:43",
+    "userId": 4389,
+    "orderNum": 133,
+    "imgSrc": "",
+    "flagAward": "",
+    "riskFactor": 3,
+    "isPrinting": 1,
+    "externalId": null,
+    "status": "active",
+    "masterName": "|FOTBAL - ANGLIA PREMIER LEAGUE|NOGOMET - ENGLESKA 1.||PIŁKA NOŻNA - ANGLIA - 1.LIGA",
+    "masterFooter": "||||",
+    "masterHeader": "||||",
+    "masterOfferDate": "2021-10-25 20:59:00",
+    "changeDateTime": "2021-10-16 05:35:43",
+    "sportName": "Soccer|Fotbal|Nogomet|Fudbal|Piłka nożna",
+    "categoryName": "England|Anglia|Engleska|Engleska|Anglia",
+    "tournamentName": "Premier League|Premier League|Engleska - 1.liga|Premijer Liga|Anglia - 1.liga",
+    "linkedTournaments": [
+        106
+    ],
+    "betGroups": [
+        {
+            "betGroupId": 719089,
+            "betGroupName": "|Totaluri|Događaji na utakmici||Wydarzenia w meczu",
+            "betGroupFooter": "|Nu se iau în considerare cartonașele acordate jucătorilor de pe banca de rezervă si oficialilor (staff-ul tehnic al echipelor, oficiali ai meciului, etc.). Nu se iau în considerare cartonașele acordate după fluierul de final al meciului.|U obzir se uzimaju žuti i crveni kartoni dodijeljeni igračima na klupi. Kartoni dodijeljeni nakon zadnjeg sučevog zvižduka i oni dani službenicima (tehničko osoblje) ne uzimaju se u obzir.||Kartki pokazane zawodnikom na ławce rezerwowych, kartki sztabu szkoleniowego oraz kartki pokazane po zakończeniu spotkania nie będą wliczane.",
+            "betGroupOrder": 10,
+            "fieldsDefinition": "[\"|Sub|manje||-\",\"|Peste|vi\\u0161e||+\"]",
+            "enteringCodes": "[\"-\",\"+\"]",
+            "enteringCodesPerMarket": "[\"|-|-||-\",\"|+|+||+\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058939,
+                    "oddTypeName": "|cornere în meci|Zbroj kornera na utakmici||rzuty rożne - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 104,
+                    "activeCode": 9438,
+                    "code": 9438,
+                    "sbVal": 8.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328910,
+                            "oddTypeId": 3058939,
+                            "status": "active",
+                            "value": 2.85,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:01"
+                        },
+                        {
+                            "oddTypeValueId": 3328911,
+                            "oddTypeId": 3058939,
+                            "status": "active",
+                            "value": 1.32,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:01"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058928,
+                    "oddTypeName": "|cornere în meci|Zbroj kornera na utakmici||rzuty rożne - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 106,
+                    "activeCode": 9420,
+                    "code": 9420,
+                    "sbVal": 9.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328908,
+                            "oddTypeId": 3058928,
+                            "status": "active",
+                            "value": 2.2,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:36:56"
+                        },
+                        {
+                            "oddTypeValueId": 3328909,
+                            "oddTypeId": 3058928,
+                            "status": "active",
+                            "value": 1.6,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:36:56"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058929,
+                    "oddTypeName": "|cornere în meci|Zbroj kornera na utakmici||rzuty rożne - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 108,
+                    "activeCode": 9421,
+                    "code": 9421,
+                    "sbVal": 10.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328906,
+                            "oddTypeId": 3058929,
+                            "status": "active",
+                            "value": 1.8,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:36:51"
+                        },
+                        {
+                            "oddTypeValueId": 3328907,
+                            "oddTypeId": 3058929,
+                            "status": "active",
+                            "value": 1.9,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:36:51"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058917,
+                    "oddTypeName": "|cornere în meci|Zbroj kornera na utakmici||rzuty rożne - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 110,
+                    "activeCode": 9401,
+                    "code": 9401,
+                    "sbVal": 11.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328912,
+                            "oddTypeId": 3058917,
+                            "status": "active",
+                            "value": 1.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:06"
+                        },
+                        {
+                            "oddTypeValueId": 3328913,
+                            "oddTypeId": 3058917,
+                            "status": "active",
+                            "value": 2.4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:06"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058918,
+                    "oddTypeName": "|cornere în meci|Zbroj kornera na utakmici||rzuty rożne - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 112,
+                    "activeCode": 9404,
+                    "code": 9404,
+                    "sbVal": 12.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328914,
+                            "oddTypeId": 3058918,
+                            "status": "active",
+                            "value": 1.3,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:11"
+                        },
+                        {
+                            "oddTypeValueId": 3328915,
+                            "oddTypeId": 3058918,
+                            "status": "active",
+                            "value": 2.95,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:11"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058919,
+                    "oddTypeName": "|cornere în prima repriză|Zbroj kornera u 1.poluvremenu||rzuty rożne - 1.połowa",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 335,
+                    "activeCode": 9405,
+                    "code": 9405,
+                    "sbVal": 4.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328916,
+                            "oddTypeId": 3058919,
+                            "status": "active",
+                            "value": 1.95,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:25"
+                        },
+                        {
+                            "oddTypeValueId": 3328917,
+                            "oddTypeId": 3058919,
+                            "status": "active",
+                            "value": 1.75,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:25"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058930,
+                    "oddTypeName": "|cornere în prima repriză|Zbroj kornera u 1.poluvremenu||rzuty rożne - 1.połowa",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 337,
+                    "activeCode": 9422,
+                    "code": 9422,
+                    "sbVal": 5.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328918,
+                            "oddTypeId": 3058930,
+                            "status": "active",
+                            "value": 1.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:44"
+                        },
+                        {
+                            "oddTypeValueId": 3328919,
+                            "oddTypeId": 3058930,
+                            "status": "active",
+                            "value": 2.4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:44"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058940,
+                    "oddTypeName": "|cornere în meci - gazde|Broj kornera 1.ekipe na utakmici||rzuty rożne w meczu - gospodarze",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 343,
+                    "activeCode": 9439,
+                    "code": 9439,
+                    "sbVal": 4.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328920,
+                            "oddTypeId": 3058940,
+                            "status": "active",
+                            "value": 1.95,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:53"
+                        },
+                        {
+                            "oddTypeValueId": 3328921,
+                            "oddTypeId": 3058940,
+                            "status": "active",
+                            "value": 1.75,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:37:53"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058938,
+                    "oddTypeName": "|cornere în meci - oaspeti|Broj kornera 2.ekipe na utakmici||rzuty rożne w meczu - goście",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 353,
+                    "activeCode": 9436,
+                    "code": 9436,
+                    "sbVal": 4.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980045;ES1979991;CLS719091;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328922,
+                            "oddTypeId": 3058938,
+                            "status": "active",
+                            "value": 2.2,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:38:00"
+                        },
+                        {
+                            "oddTypeValueId": 3328923,
+                            "oddTypeId": 3058938,
+                            "status": "active",
+                            "value": 1.6,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:38:00"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058920,
+                    "oddTypeName": "|cartonașe galbene în meci|Zbroj žutih kartona na utakmici||żółte kartki - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 361,
+                    "activeCode": 9406,
+                    "code": 9406,
+                    "sbVal": 2.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328926,
+                            "oddTypeId": 3058920,
+                            "status": "active",
+                            "value": 2.85,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:18"
+                        },
+                        {
+                            "oddTypeValueId": 3328927,
+                            "oddTypeId": 3058920,
+                            "status": "active",
+                            "value": 1.37,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:18"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058921,
+                    "oddTypeName": "|cartonașe galbene în meci|Zbroj žutih kartona na utakmici||żółte kartki - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 363,
+                    "activeCode": 9409,
+                    "code": 9409,
+                    "sbVal": 3.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328924,
+                            "oddTypeId": 3058921,
+                            "status": "active",
+                            "value": 1.8,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:00"
+                        },
+                        {
+                            "oddTypeValueId": 3328925,
+                            "oddTypeId": 3058921,
+                            "status": "active",
+                            "value": 1.9,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:00"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058922,
+                    "oddTypeName": "|cartonașe galbene în meci|Zbroj žutih kartona na utakmici||żółte kartki - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 365,
+                    "activeCode": 9410,
+                    "code": 9410,
+                    "sbVal": 4.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328928,
+                            "oddTypeId": 3058922,
+                            "status": "active",
+                            "value": 1.35,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:27"
+                        },
+                        {
+                            "oddTypeValueId": 3328929,
+                            "oddTypeId": 3058922,
+                            "status": "active",
+                            "value": 2.95,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:27"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058937,
+                    "oddTypeName": "|cartonașe galbene în prima rep.|Zbroj žutih kartona u 1.poluvremenu||żółte kartki - 1.połowa",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 373,
+                    "activeCode": 9430,
+                    "code": 9430,
+                    "sbVal": 0.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;ES1980046;ES1980048;CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328930,
+                            "oddTypeId": 3058937,
+                            "status": "active",
+                            "value": 2.7,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:37"
+                        },
+                        {
+                            "oddTypeValueId": 3328931,
+                            "oddTypeId": 3058937,
+                            "status": "active",
+                            "value": 1.4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:39:37"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058923,
+                    "oddTypeName": "|ofsaiduri în meci|Zbroj zaleđa na utakmici||liczba spalonych - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 413,
+                    "activeCode": 9411,
+                    "code": 9411,
+                    "sbVal": 1.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1979993;ES3058923;ES3058931;ES3058932;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328934,
+                            "oddTypeId": 3058923,
+                            "status": "active",
+                            "value": 3.1,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:10"
+                        },
+                        {
+                            "oddTypeValueId": 3328935,
+                            "oddTypeId": 3058923,
+                            "status": "active",
+                            "value": 1.27,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:10"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058931,
+                    "oddTypeName": "|ofsaiduri în meci|Zbroj zaleđa na utakmici||liczba spalonych - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 415,
+                    "activeCode": 9423,
+                    "code": 9423,
+                    "sbVal": 2.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1979993;ES3058923;ES3058931;ES3058932;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328932,
+                            "oddTypeId": 3058931,
+                            "status": "active",
+                            "value": 1.9,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:03"
+                        },
+                        {
+                            "oddTypeValueId": 3328933,
+                            "oddTypeId": 3058931,
+                            "status": "active",
+                            "value": 1.8,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:03"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058932,
+                    "oddTypeName": "|ofsaiduri în meci|Zbroj zaleđa na utakmici||liczba spalonych - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 417,
+                    "activeCode": 9424,
+                    "code": 9424,
+                    "sbVal": 3.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1979993;ES3058923;ES3058931;ES3058932;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328936,
+                            "oddTypeId": 3058932,
+                            "status": "active",
+                            "value": 1.35,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:18"
+                        },
+                        {
+                            "oddTypeValueId": 3328937,
+                            "oddTypeId": 3058932,
+                            "status": "active",
+                            "value": 2.7,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:18"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058924,
+                    "oddTypeName": "|faulturi comise în meci|Zbroj prekršaja na utakmici||faule - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 423,
+                    "activeCode": 9412,
+                    "code": 9412,
+                    "sbVal": 17.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;ES1979992;CLS719090;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328940,
+                            "oddTypeId": 3058924,
+                            "status": "active",
+                            "value": 2,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:41:01"
+                        },
+                        {
+                            "oddTypeValueId": 3328941,
+                            "oddTypeId": 3058924,
+                            "status": "active",
+                            "value": 1.7,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:41:01"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058933,
+                    "oddTypeName": "|faulturi comise în meci|Zbroj prekršaja na utakmici||faule - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 425,
+                    "activeCode": 9425,
+                    "code": 9425,
+                    "sbVal": 18.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;ES1979992;CLS719090;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328938,
+                            "oddTypeId": 3058933,
+                            "status": "active",
+                            "value": 1.75,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:48"
+                        },
+                        {
+                            "oddTypeValueId": 3328939,
+                            "oddTypeId": 3058933,
+                            "status": "active",
+                            "value": 1.95,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:40:48"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058941,
+                    "oddTypeName": "|faulturi comise în meci|Zbroj prekršaja na utakmici||faule - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 427,
+                    "activeCode": 9440,
+                    "code": 9440,
+                    "sbVal": 19.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;ES1979992;CLS719090;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328942,
+                            "oddTypeId": 3058941,
+                            "status": "active",
+                            "value": 1.55,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:41:06"
+                        },
+                        {
+                            "oddTypeValueId": 3328943,
+                            "oddTypeId": 3058941,
+                            "status": "active",
+                            "value": 2.3,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:41:06"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058925,
+                    "oddTypeName": "|șuturi pe poartă în meci|Zbroj udaraca u okvir gola na utakmici||liczba celnych strzałów - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 451,
+                    "activeCode": 9413,
+                    "code": 9413,
+                    "sbVal": 7.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;CLS719091;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328992,
+                            "oddTypeId": 3058925,
+                            "status": "active",
+                            "value": 2.4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:48:56"
+                        },
+                        {
+                            "oddTypeValueId": 3328993,
+                            "oddTypeId": 3058925,
+                            "status": "active",
+                            "value": 1.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:48:56"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058934,
+                    "oddTypeName": "|șuturi pe poartă în meci|Zbroj udaraca u okvir gola na utakmici||liczba celnych strzałów - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 453,
+                    "activeCode": 9426,
+                    "code": 9426,
+                    "sbVal": 8.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;CLS719091;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328944,
+                            "oddTypeId": 3058934,
+                            "status": "active",
+                            "value": 1.9,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:48:16"
+                        },
+                        {
+                            "oddTypeValueId": 3328945,
+                            "oddTypeId": 3058934,
+                            "status": "active",
+                            "value": 1.8,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:48:16"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058935,
+                    "oddTypeName": "|șuturi pe poartă în meci|Zbroj udaraca u okvir gola na utakmici||liczba celnych strzałów - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 455,
+                    "activeCode": 9427,
+                    "code": 9427,
+                    "sbVal": 9.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;CLS719091;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328998,
+                            "oddTypeId": 3058935,
+                            "status": "active",
+                            "value": 1.55,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:02"
+                        },
+                        {
+                            "oddTypeValueId": 3328999,
+                            "oddTypeId": 3058935,
+                            "status": "active",
+                            "value": 2.3,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:02"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058927,
+                    "oddTypeName": "|cartonașe roșii în meci|Crveni karton na utakmici||czerwone kartki - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 480,
+                    "activeCode": 9419,
+                    "code": 9419,
+                    "sbVal": 0.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980046;ES1980048;ES1980047;CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329012,
+                            "oddTypeId": 3058927,
+                            "status": "active",
+                            "value": 1.12,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:11"
+                        },
+                        {
+                            "oddTypeValueId": 3329013,
+                            "oddTypeId": 3058927,
+                            "status": "active",
+                            "value": 5.3,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:11"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058926,
+                    "oddTypeName": "|penaltiuri în meci|Jedanaesterac na utakmici||rzuty karne - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 490,
+                    "activeCode": 9414,
+                    "code": 9414,
+                    "sbVal": 0.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "ES1980047;CLS535902;ES1980056;CLS535914;CLS535896;CLS719092;CLS535903;CLS719093;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329020,
+                            "oddTypeId": 3058926,
+                            "status": "active",
+                            "value": 1.35,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:52"
+                        },
+                        {
+                            "oddTypeValueId": 3329021,
+                            "oddTypeId": 3058926,
+                            "status": "active",
+                            "value": 2.95,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:52"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058936,
+                    "oddTypeName": "|autogol în meci|Autogol na utakmici||gole samobójcze - mecz",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 500,
+                    "activeCode": 9428,
+                    "code": 9428,
+                    "sbVal": 0.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535902;ES1980057;CLS535896;CLS719092;CLS535903;CLS719090;CLS719091;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329008,
+                            "oddTypeId": 3058936,
+                            "status": "active",
+                            "value": 1.05,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:06"
+                        },
+                        {
+                            "oddTypeValueId": 3329009,
+                            "oddTypeId": 3058936,
+                            "status": "active",
+                            "value": 10,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:49:06"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719094,
+            "betGroupName": "|Marcatori în meci|Igrač daje gol||Strzeli gola w meczu",
+            "betGroupFooter": "|DA \u003d marcheaza, NU \u003d nu marcheaza, Primul \u003d marcheaza primul gol in meci, 2+ \u003d marcheaza minim 2 goluri, 3+ \u003d marcheaza minim 3 goluri. Autogolurile nu se iau in considerare. In cazul in care jucatorul nu este introdus pe teren, pariul se considera nul și primește COTA 1. Pentru opțiunea „NU”, in cazul in care jucătorul nu este titular (nu a participat la meci de la lovitura de start), pariul primește cota 1. Daca primul gol al meciului este autogol, pentru validare se va lua in considerare următorul gol valid. Daca nu exista un alt gol valid, pariul este necâștigător. In cazul in care jucatorul nu este introdus pe teren sau a fost introdus dupa ce s-a marcat primul gol al meciului, pariul pe primul marcator se considera nul și primește COTA 1. In caz de 0:0 pariul este necâștigător.|Autogolovi se ne uzimaju u obzir. Ako igrač nije ulazio u igru obračunava se tečaj 1,00.||TAK \u003d strzeli, NIE \u003d nie strzeli gola, 1.gol \u003d strzeli pierwszego gola w meczu, 2+ \u003d strzeli co najmniej 2 gole, 3+ \u003d strzeli co najmniej 3 gole. Bramki samobójcze nie będą wliczane. Jeżeli zawodnik nie wejdzie na boisko, zakład zostanie rozliczony jako zwrot. Jeżeli zawodnik nie wystąpi w podstawowym składzie opcja \"NIE\" zostanie rozliczona jako zwrot. Jeżeli zawodnik wejdzie na boisko po strzeleniu 1.gola, zakład na 1.gola tego zawodnika zostaje rozliczony jako zwrot po kursie 1.0.",
+            "betGroupOrder": 70,
+            "fieldsDefinition": "[\"|DA|DA||TAK\",\"|NU|NE||NIE\",\"|PRIMUL|1.gol||1.gol\",\"|2+|2+||2+\",\"|3+|3+||3+\"]",
+            "enteringCodes": "[\"1\",\"2\",\"11\",\"2+\",\"3+\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\",\"|2|2||2\",\"|11|11||11\",\"|2+|2+||2+\",\"|3+|3+||3+\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058992,
+                    "oddTypeName": "|Rondon S. (EVE)|X||Rondon S. (EVE)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 1,
+                    "activeCode": 9593,
+                    "code": 9593,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326533,
+                            "oddTypeId": 3058992,
+                            "status": "active",
+                            "value": 2.95,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:34:49"
+                        },
+                        {
+                            "oddTypeValueId": 3326534,
+                            "oddTypeId": 3058992,
+                            "status": "active",
+                            "value": 1.3,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:34:49"
+                        },
+                        {
+                            "oddTypeValueId": 3326535,
+                            "oddTypeId": 3058992,
+                            "status": "active",
+                            "value": 6.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:34:49"
+                        },
+                        {
+                            "oddTypeValueId": 3326536,
+                            "oddTypeId": 3058992,
+                            "status": "active",
+                            "value": 12,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:34:49"
+                        },
+                        {
+                            "oddTypeValueId": 3326537,
+                            "oddTypeId": 3058992,
+                            "status": "active",
+                            "value": 60,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:34:49"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058996,
+                    "oddTypeName": "|Gray D. (EVE)|X||Gray D. (EVE)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 2,
+                    "activeCode": 9693,
+                    "code": 9693,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326545,
+                            "oddTypeId": 3058996,
+                            "status": "active",
+                            "value": 3.85,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:21"
+                        },
+                        {
+                            "oddTypeValueId": 3326546,
+                            "oddTypeId": 3058996,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:21"
+                        },
+                        {
+                            "oddTypeValueId": 3326547,
+                            "oddTypeId": 3058996,
+                            "status": "active",
+                            "value": 8,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:21"
+                        },
+                        {
+                            "oddTypeValueId": 3326548,
+                            "oddTypeId": 3058996,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:21"
+                        },
+                        {
+                            "oddTypeValueId": 3326549,
+                            "oddTypeId": 3058996,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:21"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058998,
+                    "oddTypeName": "|Townsend A. (EVE)|X||Townsend A. (EVE)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 3,
+                    "activeCode": 9695,
+                    "code": 9695,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326572,
+                            "oddTypeId": 3058998,
+                            "status": "active",
+                            "value": 4.25,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:34"
+                        },
+                        {
+                            "oddTypeValueId": 3326573,
+                            "oddTypeId": 3058998,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:34"
+                        },
+                        {
+                            "oddTypeValueId": 3326574,
+                            "oddTypeId": 3058998,
+                            "status": "active",
+                            "value": 8.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:34"
+                        },
+                        {
+                            "oddTypeValueId": 3326575,
+                            "oddTypeId": 3058998,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:34"
+                        },
+                        {
+                            "oddTypeValueId": 3326576,
+                            "oddTypeId": 3058998,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:34"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058999,
+                    "oddTypeName": "|Doucoure A. (EVE)|X||Doucoure A. (EVE)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 4,
+                    "activeCode": 9696,
+                    "code": 9696,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326609,
+                            "oddTypeId": 3058999,
+                            "status": "active",
+                            "value": 7.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:56"
+                        },
+                        {
+                            "oddTypeValueId": 3326610,
+                            "oddTypeId": 3058999,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:56"
+                        },
+                        {
+                            "oddTypeValueId": 3326611,
+                            "oddTypeId": 3058999,
+                            "status": "active",
+                            "value": 18,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:56"
+                        },
+                        {
+                            "oddTypeValueId": 3326612,
+                            "oddTypeId": 3058999,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:56"
+                        },
+                        {
+                            "oddTypeValueId": 3326613,
+                            "oddTypeId": 3058999,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:35:56"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3059000,
+                    "oddTypeName": "|Antonio M. (WHU)|X||Antonio M. (WHU)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 5,
+                    "activeCode": 9697,
+                    "code": 9697,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326642,
+                            "oddTypeId": 3059000,
+                            "status": "active",
+                            "value": 2.7,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:11"
+                        },
+                        {
+                            "oddTypeValueId": 3326643,
+                            "oddTypeId": 3059000,
+                            "status": "active",
+                            "value": 1.35,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:11"
+                        },
+                        {
+                            "oddTypeValueId": 3326644,
+                            "oddTypeId": 3059000,
+                            "status": "active",
+                            "value": 6,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:11"
+                        },
+                        {
+                            "oddTypeValueId": 3326645,
+                            "oddTypeId": 3059000,
+                            "status": "active",
+                            "value": 10,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:11"
+                        },
+                        {
+                            "oddTypeValueId": 3326646,
+                            "oddTypeId": 3059000,
+                            "status": "active",
+                            "value": 50,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:11"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3059001,
+                    "oddTypeName": "|Soucek T. (WHU)|X||Soucek T. (WHU)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 6,
+                    "activeCode": 9698,
+                    "code": 9698,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326670,
+                            "oddTypeId": 3059001,
+                            "status": "active",
+                            "value": 4.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:43"
+                        },
+                        {
+                            "oddTypeValueId": 3326671,
+                            "oddTypeId": 3059001,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:43"
+                        },
+                        {
+                            "oddTypeValueId": 3326672,
+                            "oddTypeId": 3059001,
+                            "status": "active",
+                            "value": 10,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:43"
+                        },
+                        {
+                            "oddTypeValueId": 3326673,
+                            "oddTypeId": 3059001,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:43"
+                        },
+                        {
+                            "oddTypeValueId": 3326674,
+                            "oddTypeId": 3059001,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:43"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3059002,
+                    "oddTypeName": "|Benrahma S. (WHU)|X||Benrahma S. (WHU)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 7,
+                    "activeCode": 9699,
+                    "code": 9699,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326694,
+                            "oddTypeId": 3059002,
+                            "status": "active",
+                            "value": 4.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:59"
+                        },
+                        {
+                            "oddTypeValueId": 3326695,
+                            "oddTypeId": 3059002,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:59"
+                        },
+                        {
+                            "oddTypeValueId": 3326696,
+                            "oddTypeId": 3059002,
+                            "status": "active",
+                            "value": 10,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:59"
+                        },
+                        {
+                            "oddTypeValueId": 3326697,
+                            "oddTypeId": 3059002,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:59"
+                        },
+                        {
+                            "oddTypeValueId": 3326698,
+                            "oddTypeId": 3059002,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:37:59"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058997,
+                    "oddTypeName": "|Bowen J. (WHU)|X||Bowen J. (WHU)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 8,
+                    "activeCode": 9694,
+                    "code": 9694,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326717,
+                            "oddTypeId": 3058997,
+                            "status": "active",
+                            "value": 4.85,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:46"
+                        },
+                        {
+                            "oddTypeValueId": 3326718,
+                            "oddTypeId": 3058997,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:46"
+                        },
+                        {
+                            "oddTypeValueId": 3326719,
+                            "oddTypeId": 3058997,
+                            "status": "active",
+                            "value": 11.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:46"
+                        },
+                        {
+                            "oddTypeValueId": 3326720,
+                            "oddTypeId": 3058997,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:46"
+                        },
+                        {
+                            "oddTypeValueId": 3326721,
+                            "oddTypeId": 3058997,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:46"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3067695,
+                    "oddTypeName": "|Fornals P. (WHU)|X||Fornals P. (WHU)",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 9,
+                    "activeCode": 9700,
+                    "code": 9700,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;ES1980047;CLS535901;CLS535902;CLS535914;CLS719092;ES3058995;ES3058993;ES3058994;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326708,
+                            "oddTypeId": 3067695,
+                            "status": "active",
+                            "value": 5.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:40"
+                        },
+                        {
+                            "oddTypeValueId": 3326709,
+                            "oddTypeId": 3067695,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:40"
+                        },
+                        {
+                            "oddTypeValueId": 3326710,
+                            "oddTypeId": 3067695,
+                            "status": "active",
+                            "value": 12.5,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:40"
+                        },
+                        {
+                            "oddTypeValueId": 3326711,
+                            "oddTypeId": 3067695,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:40"
+                        },
+                        {
+                            "oddTypeValueId": 3326712,
+                            "oddTypeId": 3067695,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:38:40"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719092,
+            "betGroupName": "|Marcatori în meci si rezultat final|Igrač daje gol na utakmici i pobjednik||Strzeli gola i wygra",
+            "betGroupFooter": "|DA \u003d marcheaza, NU \u003d nu marcheaza. Autogolurile nu se iau in considerare. In cazul in care jucatorul nu este introdus pe teren, pariul se considera nul și primește COTA 1. Pentru opțiunea „NU”, in cazul in care jucătorul nu este titular (nu a participat la meci de la lovitura de start), pariul primește cota 1.|Autogolovi se ne uzimaju u obzir. Ako igrač nije ulazio u igru obračunava se tečaj 1,00.||Gole samobójcze nie będą wliczane. Jeżeli zawodnik nie wystąpi w meczu zakład zostaje rozliczony po kursie 1.0.",
+            "betGroupOrder": 80,
+            "fieldsDefinition": "[\"|DA|DA||TAK\",\"|NU|NE||NIE\"]",
+            "enteringCodes": "[\"1\",\"2\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\",\"|2|2||2\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058978,
+                    "oddTypeName": "|Rondon S. \u0026 Everton|X||Rondon S. \u0026 Everton",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 10,
+                    "activeCode": 9503,
+                    "code": 9503,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326538,
+                            "oddTypeId": 3058978,
+                            "status": "active",
+                            "value": 6.35,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:39:28"
+                        },
+                        {
+                            "oddTypeValueId": 3326539,
+                            "oddTypeId": 3058978,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:39:28"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058979,
+                    "oddTypeName": "|Gray D. \u0026 Everton|X||Gray D. \u0026 Everton",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 20,
+                    "activeCode": 9504,
+                    "code": 9504,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326557,
+                            "oddTypeId": 3058979,
+                            "status": "active",
+                            "value": 8.35,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:39:44"
+                        },
+                        {
+                            "oddTypeValueId": 3326558,
+                            "oddTypeId": 3058979,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:39:44"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058980,
+                    "oddTypeName": "|Townsend A. \u0026 Everton|X||Townsend A. \u0026 Everton",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 30,
+                    "activeCode": 9505,
+                    "code": 9505,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326589,
+                            "oddTypeId": 3058980,
+                            "status": "active",
+                            "value": 9,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:40:03"
+                        },
+                        {
+                            "oddTypeValueId": 3326590,
+                            "oddTypeId": 3058980,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:40:03"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058981,
+                    "oddTypeName": "|Doucoure A. \u0026 Everton|X||Doucoure A. \u0026 Everton",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 40,
+                    "activeCode": 9506,
+                    "code": 9506,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326626,
+                            "oddTypeId": 3058981,
+                            "status": "active",
+                            "value": 16,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:40:22"
+                        },
+                        {
+                            "oddTypeValueId": 3326627,
+                            "oddTypeId": 3058981,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:40:22"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058982,
+                    "oddTypeName": "|Antonio M. \u0026 West Ham|X||Antonio M. \u0026 West Ham",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 50,
+                    "activeCode": 9507,
+                    "code": 9507,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326649,
+                            "oddTypeId": 3058982,
+                            "status": "active",
+                            "value": 6.65,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:42:19"
+                        },
+                        {
+                            "oddTypeValueId": 3326650,
+                            "oddTypeId": 3058982,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:42:19"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058983,
+                    "oddTypeName": "|Soucek T. \u0026 West Ham|X||Soucek T. \u0026 West Ham",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 60,
+                    "activeCode": 9508,
+                    "code": 9508,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326683,
+                            "oddTypeId": 3058983,
+                            "status": "active",
+                            "value": 10,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:42:39"
+                        },
+                        {
+                            "oddTypeValueId": 3326684,
+                            "oddTypeId": 3058983,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:42:39"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3067693,
+                    "oddTypeName": "|Benrahma S. \u0026 West Ham|X||Benrahma S. \u0026 West Ham",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 70,
+                    "activeCode": 9509,
+                    "code": 9509,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326628,
+                            "oddTypeId": 3067693,
+                            "status": "active",
+                            "value": 10,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:42:46"
+                        },
+                        {
+                            "oddTypeValueId": 3326629,
+                            "oddTypeId": 3067693,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:42:46"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3067694,
+                    "oddTypeName": "|Bowen J. \u0026 West Ham|X||Bowen J. \u0026 West Ham",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 80,
+                    "activeCode": 9542,
+                    "code": 9542,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326630,
+                            "oddTypeId": 3067694,
+                            "status": "active",
+                            "value": 12,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:43:11"
+                        },
+                        {
+                            "oddTypeValueId": 3326631,
+                            "oddTypeId": 3067694,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:43:11"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3067696,
+                    "oddTypeName": "|Fornals P. \u0026 West Ham|X||Fornals P. \u0026 West Ham",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 90,
+                    "activeCode": 9543,
+                    "code": 9543,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS719094;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326724,
+                            "oddTypeId": 3067696,
+                            "status": "active",
+                            "value": 13,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:43:45"
+                        },
+                        {
+                            "oddTypeValueId": 3326725,
+                            "oddTypeId": 3067696,
+                            "status": "active",
+                            "value": 0,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:43:45"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719088,
+            "betGroupName": "| Intervalul primului gol|Minuta 1.gola||Przedział czasowy pierwszego gola",
+            "betGroupFooter": "|1 \u003d inainte. 2 \u003d dupa. Exemplu: pariul \"inainte de minutul 20.5\" inseamna ca primul gol se va marca inainte de inceperea minutului 21. Daca meciul se termina 0-0, toate pariurile sunt necastigatoare.|Ako utakmica završi 0:0, sve oklade su gubitne.||Przykład: \"przed 20.5 minutą\" oznacza, że pierwszy gol padnie przed rozpoczęciem 21 minuty. Jeśli mecz zakończy się wynikiem 0:0, zakłady będą przegrane.",
+            "betGroupOrder": 110,
+            "fieldsDefinition": "[\"|inainte|prije||PRZED\",\"|dupa|poslije||PO\"]",
+            "enteringCodes": "[\"1\",\"2\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\",\"|2|2||2\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058914,
+                    "oddTypeName": "|înainte/după minutul|Minuta 1.gola||przed/po minucie",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 1,
+                    "activeCode": 9394,
+                    "code": 9394,
+                    "sbVal": 20.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535900;CLS535902;CLS535914;ES1980129;ES1980130;CLS535915;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326743,
+                            "oddTypeId": 3058914,
+                            "status": "active",
+                            "value": 2.3,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:33:10"
+                        },
+                        {
+                            "oddTypeValueId": 3326744,
+                            "oddTypeId": 3058914,
+                            "status": "active",
+                            "value": 1.55,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:33:10"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058915,
+                    "oddTypeName": "|înainte/după minutul|Minuta 1.gola||przed/po minucie",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 2,
+                    "activeCode": 9399,
+                    "code": 9399,
+                    "sbVal": 28.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535900;CLS535902;CLS535914;ES1980129;ES1980130;CLS535915;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326747,
+                            "oddTypeId": 3058915,
+                            "status": "active",
+                            "value": 1.8,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:33:17"
+                        },
+                        {
+                            "oddTypeValueId": 3326748,
+                            "oddTypeId": 3058915,
+                            "status": "active",
+                            "value": 1.9,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:33:17"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058916,
+                    "oddTypeName": "|înainte/după minutul|Minuta 1.gola||przed/po minucie",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 3,
+                    "activeCode": 9400,
+                    "code": 9400,
+                    "sbVal": 36.5,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535900;CLS535902;CLS535914;ES1980129;ES1980130;CLS535915;CLS535903;CLS719093;CLS719090;CLS719091;ES3058936;ES3058926;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3326749,
+                            "oddTypeId": 3058916,
+                            "status": "active",
+                            "value": 1.55,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:33:25"
+                        },
+                        {
+                            "oddTypeValueId": 3326750,
+                            "oddTypeId": 3058916,
+                            "status": "active",
+                            "value": 2.3,
+                            "voidFactor": 0,
+                            "userId": 20616,
+                            "dateTime": "2021-10-15 08:33:25"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719090,
+            "betGroupName": "|Succ.eveni. goluri / cartonașe galbene|Zbroj golova i žutih kartona na utakmici||Liczba goli i żółtych kartek",
+            "betGroupFooter": "|Nu se iau în considerare cartonașele acordate jucătorilor de pe banca de rezervă si oficialilor (staff-ul tehnic al echipelor, oficiali ai meciului, etc.). Nu se iau în considerare cartonașele acordate după fluierul de final al meciului.|U obzir se uzimaju kartoni dodijeljeni igračima na klupi.  Kartoni dodijeljeni nakon zadnjeg sučevog zvižduka, kao ni kartoni dodijeljeni tehničkom osoblju ne uzimaju se u obzir.||Kartki pokazane zawodnikom na ławce rezerwowych, kartki sztabu szkoleniowego oraz kartki pokazane po zakończeniu spotkania nie będą wliczane.",
+            "betGroupOrder": 190,
+            "fieldsDefinition": "[\"|DA|DA||TAK\"]",
+            "enteringCodes": "[\"1\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058946,
+                    "oddTypeName": "|sub 2.5 goluri și sub 3.5 cartonașe galbene|manje od 2.5 gola i manje od 3.5 zutih kartona||poniżej 2.5 gola i poniżej 3.5 żółtych kartek",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 110,
+                    "activeCode": 9445,
+                    "code": 9445,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329042,
+                            "oddTypeId": 3058946,
+                            "status": "active",
+                            "value": 3.4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:03"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058947,
+                    "oddTypeName": "|sub 2.5 goluri și peste 3.5 cartonașe galbene|manje od 2.5 gola i vise od 3.5 zutih kartona||poniżej 2.5 gola i powyżej 3.5 żółtych kartek",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 120,
+                    "activeCode": 9448,
+                    "code": 9448,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329043,
+                            "oddTypeId": 3058947,
+                            "status": "active",
+                            "value": 3.6,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:08"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058948,
+                    "oddTypeName": "|peste 2.5 goluri și sub 3.5 cartonașe galbene|vise od 2.5 gola i manje od 3.5 zutih kartona||powyżej 2.5 gola i poniżej 3.5 żółtych kartek",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 130,
+                    "activeCode": 9451,
+                    "code": 9451,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329044,
+                            "oddTypeId": 3058948,
+                            "status": "active",
+                            "value": 3.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:14"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058949,
+                    "oddTypeName": "|peste 2.5 goluri și peste 3.5 cartonașe galbene|vise od 2.5 gola i vise od 3.5 zutih kartona||powyżej 2.5 gola i powyżej 3.5 żółtych kartek",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 140,
+                    "activeCode": 9452,
+                    "code": 9452,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;CLS535912;CLS535896;CLS719091;ES3058936;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329045,
+                            "oddTypeId": 3058949,
+                            "status": "active",
+                            "value": 3.65,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719091,
+            "betGroupName": "|Succ.eveni. goluri / cornere|Zbroj golova i kornera na utakmici||Liczba goli i rzutów rożnych",
+            "betGroupFooter": "||||",
+            "betGroupOrder": 200,
+            "fieldsDefinition": "[\"|DA|DA||TAK\"]",
+            "enteringCodes": "[\"1\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058970,
+                    "oddTypeName": "|sub 2.5 goluri și sub 10.5 cornere|manje od 2.5 gola i manje od 10.5 kornera||poniżej 2.5 gola i poniżej 10.5 rzutów rożnych",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 310,
+                    "activeCode": 9494,
+                    "code": 9494,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;ES3058936;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329046,
+                            "oddTypeId": 3058970,
+                            "status": "active",
+                            "value": 3.4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:33"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058971,
+                    "oddTypeName": "|sub 2.5 goluri și peste 10.5 cornere|manje od 2.5 gola i vise od 10.5 kornera||poniżej 2.5 gola i powyżej 10.5 rzutów rożnych",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 320,
+                    "activeCode": 9496,
+                    "code": 9496,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;ES3058936;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329049,
+                            "oddTypeId": 3058971,
+                            "status": "active",
+                            "value": 3.6,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:41"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058972,
+                    "oddTypeName": "|peste 2.5 goluri și sub 10.5 cornere|vise od 2.5 gola i manje od 10.5 kornera||powyżej 2.5 gola i poniżej 10.5 rzutów rożnych",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 330,
+                    "activeCode": 9497,
+                    "code": 9497,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;ES3058936;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329052,
+                            "oddTypeId": 3058972,
+                            "status": "active",
+                            "value": 3.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:51:51"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058973,
+                    "oddTypeName": "|peste 2.5 goluri și peste 10.5 cornere|vise od 2.5 gola i vise od 10.5 kornera||powyżej 2.5 gola i powyżej 10.5 rzutów rożnych",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 340,
+                    "activeCode": 9498,
+                    "code": 9498,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719090;ES3058936;ES3058940;ES1980029;ES1980036;ES3058938;ES3058939;ES1980031;ES1980034;ES3058917;ES3058918;ES1980000;ES3058928;ES3058929;ES3058919;ES3058930;ES1980017;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329055,
+                            "oddTypeId": 3058973,
+                            "status": "active",
+                            "value": 3.65,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:52:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719095,
+            "betGroupName": "|Penalti - cartonaș roșu|Jedanaesterac i/ili crveni karton||Rzut karny - czerwona kartka",
+            "betGroupFooter": "|In meci se va acorda cel putin un penalti si/sau cel putin un cartonas rosu. Nu se iau în considerare cartonașele acordate jucătorilor de pe banca de rezervă si oficialilor (staff-ul tehnic al echipelor, oficiali ai meciului, etc.). Nu se iau în considerare cartonașele acordate după fluierul de final al meciului.|Na utakmici će biti dosuđen najmanje jedan jedanaesterac i / ili bar jedan crveni karton. U obzir se uzimaju crveni kartoni dodijeljeni igračima na klupi.  Kartoni dodijeljeni nakon zadnjeg sucevog zvižduka, kao ni kartoni dodijeljeni tehničkom osoblju ne uzimaju se u obzir.||W meczu zostanie podyktowany co najmniej jeden rzut karny i/lub pokazana co najmniej jedna czerwona kartka. Kartki pokazane zawodnikom na ławce rezerwowych, kartki sztabu szkoleniowego oraz kartki pokazane po zakończeniu spotkania nie będą wliczane.",
+            "betGroupOrder": 210,
+            "fieldsDefinition": "[\"|DA|DA||TAK\",\"|NU|NE||NIE\"]",
+            "enteringCodes": "[\"1\",\"2\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\",\"|2|2||2\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3059003,
+                    "oddTypeName": "|Penalti și cartonaș roșu|Jedanaesterac i crveni karton na utakmici||Rzut karny i czerwona kartka",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 1,
+                    "activeCode": 9701,
+                    "code": 9701,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;ES1980046;ES1980048;ES1980047;CLS535902;ES1979994;ES1979992;CLS535896;CLS719092;CLS719094;CLS719095;CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329026,
+                            "oddTypeId": 3059003,
+                            "status": "active",
+                            "value": 11,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:50:09"
+                        },
+                        {
+                            "oddTypeValueId": 3329027,
+                            "oddTypeId": 3059003,
+                            "status": "active",
+                            "value": 1.01,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:50:09"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3059004,
+                    "oddTypeName": "|Penalti sau cartonaș roșu|Jedanaesterac ili crveni karton na utakmici||Rzut karny lub czerwona kartka",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 2,
+                    "activeCode": 9727,
+                    "code": 9727,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS535912;ES1980046;ES1980048;ES1980047;CLS535902;ES1979994;ES1979992;CLS535896;CLS719092;CLS719094;CLS719095;CLS535903;CLS719090;CLS719091;ES1980038;ES1980005;ES1980037;ES3058920;ES3058921;ES3058922;ES1980040;ES3058937;ES1980039;ES1980006;ES3058927;ES1980043;ES1980026;ES1980044;ES1980027;ES3058941;ES1980042;ES3058924;ES3058933;ES1980021;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3329032,
+                            "oddTypeId": 3059004,
+                            "status": "active",
+                            "value": 2.1,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:50:39"
+                        },
+                        {
+                            "oddTypeValueId": 3329033,
+                            "oddTypeId": 3059004,
+                            "status": "active",
+                            "value": 1.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:50:39"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "betGroupId": 719093,
+            "betGroupName": "|Scor corect oricând|Točan rezultat bilo kada||Wynik w dowolnym momencie",
+            "betGroupFooter": "|DA \u003d in orice moment al meciului scorul va fi cel pariat. |DA - točan rezultat u bilo kojem trenutku utakmice.||TAK\u003dbędzie wynik w dowolnym momencie meczu. ",
+            "betGroupOrder": 300,
+            "fieldsDefinition": "[\"|DA|DA||TAK\"]",
+            "enteringCodes": "[\"1\"]",
+            "enteringCodesPerMarket": "[\"|1|1||1\"]",
+            "externalId": null,
+            "oddTypes": [
+                {
+                    "oddTypeId": 3058984,
+                    "oddTypeName": "|Scor corect oricând 1-0|1-0 tijekom utakmice||Wynik w dowolnym momencie 1-0",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 1,
+                    "activeCode": 9544,
+                    "code": 9544,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328898,
+                            "oddTypeId": 3058984,
+                            "status": "active",
+                            "value": 2.05,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:33:55"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058985,
+                    "oddTypeName": "|Scor corect oricând 2-0|2-0 tijekom utakmice||Wynik w dowolnym momencie 2-0",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 2,
+                    "activeCode": 9545,
+                    "code": 9545,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328900,
+                            "oddTypeId": 3058985,
+                            "status": "active",
+                            "value": 4.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:34:05"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058986,
+                    "oddTypeName": "|Scor corect oricând 2-1|2-1  tijekom utakmice||Wynik w dowolnym momencie 2-1",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 3,
+                    "activeCode": 9546,
+                    "code": 9546,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328901,
+                            "oddTypeId": 3058986,
+                            "status": "active",
+                            "value": 4,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:34:12"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058987,
+                    "oddTypeName": "|Scor corect oricând 0-1|0-1  tijekom utakmice||Wynik w dowolnym momencie 0-1",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 7,
+                    "activeCode": 9557,
+                    "code": 9557,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328899,
+                            "oddTypeId": 3058987,
+                            "status": "active",
+                            "value": 2.1,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:33:59"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058988,
+                    "oddTypeName": "|Scor corect oricând 0-2|0-2 tijekom utakmice||Wynik w dowolnym momencie 0-2",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 8,
+                    "activeCode": 9558,
+                    "code": 9558,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328902,
+                            "oddTypeId": 3058988,
+                            "status": "active",
+                            "value": 4.9,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:34:16"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058989,
+                    "oddTypeName": "|Scor corect oricând 1-2|1-2  tijekom utakmice||Wynik w dowolnym momencie 1-2",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 9,
+                    "activeCode": 9590,
+                    "code": 9590,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328903,
+                            "oddTypeId": 3058989,
+                            "status": "active",
+                            "value": 4.55,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:34:19"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058990,
+                    "oddTypeName": "|Scor corect oricând 1-1|1-1  tijekom utakmice||Wynik w dowolnym momencie 1-1",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 13,
+                    "activeCode": 9591,
+                    "code": 9591,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328904,
+                            "oddTypeId": 3058990,
+                            "status": "active",
+                            "value": 2.3,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:34:36"
+                        }
+                    ]
+                },
+                {
+                    "oddTypeId": 3058991,
+                    "oddTypeName": "|Scor corect oricând 2-2|2-2  tijekom utakmice||Wynik w dowolnym momencie 2-2",
+                    "offerDateTime": "2021-10-17 13:00:00",
+                    "orderNum": 14,
+                    "activeCode": 9592,
+                    "code": 9592,
+                    "sbVal": 0,
+                    "betStart": "2021-10-11 07:44:00",
+                    "betStop": "2021-10-17 13:00:00",
+                    "externalId": null,
+                    "rules": [
+                        {
+                            "name": "prohibit_with",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": "CLS719088;CLS535901;CLS535902;CLS535914;CLS535915;CLS535896;CLS719092;CLS719094;CLS535903;CLS719090;CLS719091;ES3058936;ES3058926;ES1980033;ES1980010;ES3058925;ES3058934;ES3058935;ES1980032;ES1980013;T45742;M3412421;"
+                        },
+                        {
+                            "name": "prohibition_of_same_event",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        },
+                        {
+                            "name": "prohibition_of_same_class",
+                            "param1": 0,
+                            "param2": 0,
+                            "modifier": ""
+                        }
+                    ],
+                    "odds": [
+                        {
+                            "oddTypeValueId": 3328905,
+                            "oddTypeId": 3058991,
+                            "status": "active",
+                            "value": 6.5,
+                            "voidFactor": 0,
+                            "userId": 4389,
+                            "dateTime": "2021-10-15 17:34:40"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "localOfferDate": "2021-10-17 16:00:00",
+    "name_event": "|, , FOTBAL - ANGLIA PREMIER LEAGUE|, , NOGOMET - ENGLESKA 1.|",
+    "name_event_short": " ()| ()| ()| ()"
+}
