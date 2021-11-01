@@ -7,10 +7,16 @@ mod screens;
 mod prelude {
     pub use std::fmt::Display;
     pub use std::io::{self, Stdout, Write};
+    pub use std::sync::mpsc;
+    pub use std::sync::mpsc::{Receiver, Sender};
+    pub use std::sync::{Arc, Mutex};
+    pub use std::thread;
+    pub use std::time::Duration;
 
     pub use clap::{self, Arg};
     pub use crossterm::event::{read, Event, KeyCode, KeyEvent};
     pub use crossterm::terminal;
+    pub use rand::*;
     pub use tui::backend::{Backend, CrosstermBackend};
     pub use tui::layout::{Alignment, Constraint, Direction, Layout};
     pub use tui::style::*;
@@ -27,40 +33,23 @@ mod prelude {
     pub use crate::screens::*;
 }
 
-use std::process::exit;
+use std::{process::exit, sync::mpsc::TryRecvError};
 
 use ::redis::Commands;
 use prelude::*;
 
-fn main2() {
-    let config = Config::from_command_line();
-    let url = redis::url_builder(
-        config.host,
-        config.port,
-        config.username,
-        config.password,
-        config.db,
-    );
-
-    let redis_client = redis::RedisClient::new(url);
-
-    create_dataset(&redis_client);
-
-    let mut con = redis_client.new_connection();
-    let results = con.scan::<String>().unwrap();
-    println!("{:?}", results.skip(20).take(1).collect::<Vec<String>>());
-}
-
 fn create_dataset(redis_client: &RedisClient) {
     let mut con = redis_client.new_connection();
 
-    for i in 100..150 {
+    let mut rng = rand::thread_rng();
+
+    for i in 0..100 {
+        let j: i32 = rng.gen();
         let _ = con
-            .set::<String, String, String>(format!("test{}", i), format!("value{}", i))
+            .set::<String, String, String>(format!("test{}", j), format!("value{}", j))
             .unwrap();
     }
 }
-
 fn main() {
     let config = Config::from_command_line();
     let url = redis::url_builder(
@@ -76,6 +65,31 @@ fn main() {
     let mut app = App::new();
     let mut terminal = init_terminal();
 
+    let mut con = redis_client.new_connection();
+    let results_iter = redis_client.scan::<String>(&mut con).unwrap();
+
+    let paged_results = results_iter
+        .skip(app.result_page * app.page_size)
+        .take(app.page_size)
+        .collect::<Vec<String>>();
+
+    let keys: Arc<Mutex<Vec<String>>> = Arc::new(Mutex::new(paged_results));
+
+    let (producer, consumer): (Sender<String>, Receiver<String>) = mpsc::channel();
+
+    let keys_cloned = Arc::clone(&keys);
+    thread::spawn(move || loop {
+        match consumer.try_recv() {
+            Ok(key) => {
+                keys_cloned.lock().unwrap().push(key);
+            }
+            Err(TryRecvError::Disconnected) => {
+                break;
+            }
+            Err(TryRecvError::Empty) => {}
+        }
+    });
+
     loop {
         match app.state {
             AppState::Exit => {
@@ -84,61 +98,64 @@ fn main() {
             }
 
             AppState::Selecting => {
-                let mut con = redis_client.new_connection();
-                let results_iter = redis_client.scan::<String>(&mut con).unwrap();
-
-                let paged_results = results_iter
-                    .skip(app.result_page * app.page_size)
-                    .take(app.page_size)
-                    .collect::<Vec<String>>();
-
                 terminal
                     .draw(|f| {
-                        draw_confirmed_search_screen(f, &mut app, paged_results);
+                        draw_selecting_screen(f, &mut app, &keys);
                     })
                     .unwrap();
 
-                handle_input::handle_input(&mut app);
+                handle_input::handle_input(&mut app, &keys);
             }
 
             AppState::SearchSelected => {
-                let mut con = redis_client.new_connection();
-                let results_iter = redis_client
-                    .scan_match::<String>(&mut con, String::from(&app.input))
-                    .unwrap();
-
-                let paged_results = results_iter
-                    .skip(app.result_page * app.page_size)
-                    .take(app.page_size)
-                    .collect::<Vec<String>>();
-
                 terminal
                     .draw(|f| {
-                        draw_confirmed_search_screen(f, &mut app, paged_results);
+                        draw_selecting_screen(f, &mut app, &keys);
                     })
                     .unwrap();
 
-                handle_input::handle_input(&mut app);
+                handle_input::handle_input(&mut app, &keys);
             }
 
             AppState::DisplayResults => {
-                let mut con = redis_client.new_connection();
-                let results_iter = redis_client
-                    .scan_match::<String>(&mut con, String::from(&app.input))
-                    .unwrap();
+                keys.lock().unwrap().clear();
+                let new_redis_client = redis_client.clone();
+                let pattern = app.input.clone();
+                let new_producer = producer.clone();
 
-                let paged_results = results_iter
-                    .skip(app.result_page * app.page_size)
-                    .take(app.page_size)
-                    .collect::<Vec<String>>();
+                thread::spawn(move || {
+                    let mut con = new_redis_client.new_connection();
 
-                terminal
-                    .draw(|f| {
-                        draw_confirmed_search_screen(f, &mut app, paged_results);
-                    })
-                    .unwrap();
+                    let mut keys = new_redis_client
+                        .scan_match::<String>(&mut con, pattern)
+                        .unwrap();
 
-                handle_input::handle_input(&mut app);
+                    // TODO: remove this hack
+                    let max_results = 100;
+                    let mut current_results = 0;
+                    loop {
+                        if let Some(k) = keys.next() {
+                            let send_res = new_producer.send(k);
+                            if let Err(e) = send_res {
+                                println!("{}", e);
+                                break;
+                            }
+
+                            current_results += 1;
+                            if current_results == max_results {
+                                break;
+                            }
+                        }
+                    }
+
+                    drop(new_producer);
+                });
+
+                thread::sleep(Duration::from_millis(50));
+
+                // TODO: implement ending the thread with producer/consumer
+
+                app.state = AppState::Selecting
             }
 
             AppState::DisplayDetails => {
@@ -149,11 +166,11 @@ fn main() {
 
                 terminal
                     .draw(|f| {
-                        draw_display_details(f, &mut app, details);
+                        draw_display_details(f, &mut app, &keys, details);
                     })
                     .unwrap();
 
-                handle_input::handle_input(&mut app);
+                handle_input::handle_input(&mut app, &keys);
             }
         }
     }

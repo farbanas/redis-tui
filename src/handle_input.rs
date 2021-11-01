@@ -8,7 +8,7 @@ pub enum WindowElements {
     Data,
 }
 
-pub fn handle_input(app: &mut App) {
+pub fn handle_input(app: &mut App, keys: &Arc<Mutex<Vec<String>>>) {
     if let Event::Key(event) = read().unwrap() {
         match event.code {
             KeyCode::Esc => app.element_selected = false,
@@ -69,7 +69,8 @@ pub fn handle_input(app: &mut App) {
                                     app.highlighted_element = WindowElements::Data;
                                     app.element_selected = false;
 
-                                    let key = app.keys.get(x);
+                                    let keys_cloned = keys.lock().unwrap().clone();
+                                    let key = keys_cloned.get(x);
 
                                     if let Some(k) = key {
                                         app.selected_key = k.clone();

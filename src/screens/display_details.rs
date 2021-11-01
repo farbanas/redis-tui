@@ -3,6 +3,7 @@ pub use crate::prelude::*;
 pub fn draw_display_details(
     f: &mut Frame<CrosstermBackend<Stdout>>,
     app: &mut App,
+    keys: &Arc<Mutex<Vec<String>>>,
     details: Vec<Spans>,
 ) {
     let main_layout = Layout::default()
@@ -28,7 +29,7 @@ pub fn draw_display_details(
 
     let mut title_bar = Block::default().title("Title bar").borders(Borders::ALL);
 
-    let mut results_widget = app.draw_results::<String>(app.keys.clone());
+    let mut results_widget = app.draw_results::<String>(&app, keys.lock().unwrap().clone());
     results_widget = results_widget.block(Block::default().borders(Borders::ALL));
 
     let mut data =

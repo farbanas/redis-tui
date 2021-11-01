@@ -1,6 +1,6 @@
 pub use crate::prelude::*;
 
-pub fn draw_confirmed_search_screen(
+pub fn draw_selecting_screen(
     f: &mut Frame<CrosstermBackend<Stdout>>,
     app: &mut App,
     keys: &Arc<Mutex<Vec<String>>>,

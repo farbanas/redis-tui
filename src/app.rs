@@ -2,6 +2,7 @@ use crate::prelude::*;
 use redis::FromRedisValue;
 use tui::widgets::ListState;
 
+#[derive(Clone)]
 pub struct App {
     pub result_page: usize,
     pub page_size: usize,
@@ -11,10 +12,10 @@ pub struct App {
     pub input: String,
     pub result_state: ListState,
     pub num_showed_elements: usize,
-    pub keys: Vec<String>,
     pub selected_key: String,
 }
 
+#[derive(Clone)]
 pub enum AppState {
     Selecting,
     SearchSelected,
@@ -34,7 +35,6 @@ impl App {
             input: String::new(),
             result_state: ListState::default(),
             num_showed_elements: 0,
-            keys: vec![],
             selected_key: String::new(),
         }
     }
@@ -43,13 +43,15 @@ impl App {
         self.num_showed_elements = num_elements;
     }
 
-    pub fn set_keys(&mut self, keys: &Vec<String>) {
-        self.keys = keys.clone();
-    }
-
-    pub fn draw_results<T: FromRedisValue + Display>(&self, results: Vec<String>) -> List {
+    pub fn draw_results<T: FromRedisValue + Display>(
+        &self,
+        app: &App,
+        results: Vec<String>,
+    ) -> List {
         let list_items: Vec<ListItem> = results
             .into_iter()
+            .skip(app.result_page * app.page_size)
+            .take(app.page_size)
             .map(|key| ListItem::new(format!("{}", key)))
             .collect();
 
