@@ -6,16 +6,25 @@ pub struct Config {
     pub username: String,
     pub password: String,
     pub db: String,
+    pub max_matches: i64,
 }
 
 impl Config {
-    pub fn new(host: &str, port: &str, username: &str, password: &str, db: &str) -> Self {
+    pub fn new(
+        host: &str,
+        port: &str,
+        username: &str,
+        password: &str,
+        db: &str,
+        max_matches: &str,
+    ) -> Self {
         Self {
             host: String::from(host),
             port: String::from(port),
             username: String::from(username),
             password: String::from(password),
             db: String::from(db),
+            max_matches: max_matches.parse::<i64>().unwrap(),
         }
     }
 
@@ -56,6 +65,12 @@ impl Config {
                     .default_value("")
                     .help("Custom db for your redis cluster."),
             )
+            .arg(
+                Arg::with_name("max_matches")
+                    .long("max_matches")
+                    .default_value("200")
+                    .help("The maximum number of matches for a search that this app will fetch."),
+            )
             .get_matches();
 
         let host = args.value_of("host").unwrap();
@@ -63,7 +78,8 @@ impl Config {
         let username = args.value_of("username").unwrap();
         let password = args.value_of("password").unwrap();
         let db = args.value_of("db").unwrap();
+        let max_matches = args.value_of("max_matches").unwrap();
 
-        Config::new(host, port, username, password, db)
+        Config::new(host, port, username, password, db, max_matches)
     }
 }

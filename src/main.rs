@@ -7,8 +7,11 @@ mod screens;
 mod prelude {
     pub use std::fmt::Display;
     pub use std::io::{self, Stdout, Write};
+    pub use std::process::exit;
+    pub use std::sync::atomic::Ordering::SeqCst;
     pub use std::sync::mpsc;
     pub use std::sync::mpsc::{Receiver, Sender};
+    pub use std::sync::{atomic::AtomicBool, mpsc::TryRecvError};
     pub use std::sync::{Arc, Mutex};
     pub use std::thread;
     pub use std::time::Duration;
@@ -32,8 +35,6 @@ mod prelude {
     pub use crate::redis::*;
     pub use crate::screens::*;
 }
-
-use std::{process::exit, sync::mpsc::TryRecvError};
 
 use ::redis::Commands;
 use prelude::*;
@@ -90,6 +91,10 @@ fn main() {
         }
     });
 
+    let mut switch = true;
+    let stop_searching_1: Arc<AtomicBool> = Arc::new(AtomicBool::new(false));
+    let stop_searching_2: Arc<AtomicBool> = Arc::new(AtomicBool::new(false));
+
     loop {
         match app.state {
             AppState::Exit => {
@@ -118,10 +123,23 @@ fn main() {
             }
 
             AppState::DisplayResults => {
-                keys.lock().unwrap().clear();
+                let stop_searching_clone = if switch {
+                    stop_searching_2.store(true, SeqCst);
+                    stop_searching_2.store(false, SeqCst);
+                    stop_searching_1.clone()
+                } else {
+                    stop_searching_1.store(true, SeqCst);
+                    stop_searching_2.store(false, SeqCst);
+                    stop_searching_2.clone()
+                };
+                switch = !switch;
+
                 let new_redis_client = redis_client.clone();
                 let pattern = app.input.clone();
                 let new_producer = producer.clone();
+                let max_matches = config.max_matches;
+
+                keys.lock().unwrap().clear();
 
                 thread::spawn(move || {
                     let mut con = new_redis_client.new_connection();
@@ -130,10 +148,12 @@ fn main() {
                         .scan_match::<String>(&mut con, pattern)
                         .unwrap();
 
-                    // TODO: remove this hack
-                    let max_results = 100;
                     let mut current_results = 0;
                     loop {
+                        if stop_searching_clone.load(SeqCst) {
+                            break;
+                        }
+
                         if let Some(k) = keys.next() {
                             let send_res = new_producer.send(k);
                             if let Err(e) = send_res {
@@ -142,7 +162,7 @@ fn main() {
                             }
 
                             current_results += 1;
-                            if current_results == max_results {
+                            if current_results == max_matches {
                                 break;
                             }
                         }
@@ -150,10 +170,6 @@ fn main() {
 
                     drop(new_producer);
                 });
-
-                thread::sleep(Duration::from_millis(50));
-
-                // TODO: implement ending the thread with producer/consumer
 
                 app.state = AppState::Selecting
             }

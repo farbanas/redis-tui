@@ -29,7 +29,7 @@ pub fn draw_selecting_screen(
     let mut title_bar = Block::default().title("Title bar").borders(Borders::ALL);
 
     app.set_num_showed_elements(keys.lock().unwrap().len());
-    let mut results_widget = app.draw_results::<String>(&app, keys.lock().unwrap().clone());
+    let mut results_widget = app.draw_results::<String>(keys.lock().unwrap().clone());
     results_widget = results_widget.block(Block::default().borders(Borders::ALL));
 
     let mut data = Block::default().title("Data").borders(Borders::ALL);

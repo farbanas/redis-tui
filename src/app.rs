@@ -13,6 +13,7 @@ pub struct App {
     pub result_state: ListState,
     pub num_showed_elements: usize,
     pub selected_key: String,
+    pub last_page: bool,
 }
 
 #[derive(Clone)]
@@ -36,22 +37,35 @@ impl App {
             result_state: ListState::default(),
             num_showed_elements: 0,
             selected_key: String::new(),
+            last_page: false,
         }
     }
 
     pub fn set_num_showed_elements(&mut self, num_elements: usize) {
-        self.num_showed_elements = num_elements;
+        let skipped_elements = self.result_page * self.page_size;
+        let corrected_num_elements = if num_elements - skipped_elements > self.page_size {
+            self.page_size
+        } else {
+            num_elements - skipped_elements
+        };
+
+        if corrected_num_elements < self.page_size
+            || (corrected_num_elements == self.page_size
+                && num_elements - skipped_elements - self.page_size == 0)
+        {
+            self.last_page = true;
+        } else {
+            self.last_page = false;
+        }
+
+        self.num_showed_elements = corrected_num_elements;
     }
 
-    pub fn draw_results<T: FromRedisValue + Display>(
-        &self,
-        app: &App,
-        results: Vec<String>,
-    ) -> List {
+    pub fn draw_results<T: FromRedisValue + Display>(&self, results: Vec<String>) -> List {
         let list_items: Vec<ListItem> = results
             .into_iter()
-            .skip(app.result_page * app.page_size)
-            .take(app.page_size)
+            .skip(self.result_page * self.page_size)
+            .take(self.page_size)
             .map(|key| ListItem::new(format!("{}", key)))
             .collect();
 
